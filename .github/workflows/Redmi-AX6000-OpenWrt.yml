@@ -22,7 +22,7 @@ on:
 #    - cron: 0 16 * * *
 
 env:
-  REPO_URL: https://github.com/openwrt/openwrt
+  REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: AX6000.config
@@ -72,7 +72,7 @@ jobs:
         
     - name: 更新 & 安装 feeds
       run: |
-        cd openwrt
+        cd lede
         ./scripts/feeds update -a
         ./scripts/feeds install -a -f
       
