@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: openwrt-6086
+name: tplink-xdr6086-openwrt
 
 on:
   repository_dispatch:
