@@ -15,12 +15,12 @@ echo "修改机器名称"
 device_name='xdr6086'
 sed -i "s/OpenWrt/$device_name/g" ./package/base-files/files/bin/config_generate
 
-echo "修改wifi名称"
-wifi_name=SHIJIA5
-sed -i "s/OpenWrt/$wifi_name/g" ./package/kernel/mac80211/files/lib/wifi/mac80211.sh
+# echo "修改wifi名称"
+# wifi_name=SHIJIA5
+# sed -i "s/OpenWrt/$wifi_name/g" ./package/kernel/mac80211/files/lib/wifi/mac80211.sh
 
-echo "wifi默认开启"
-sed -i '/set wireless.${name}.disabled/d' ./package/kernel/mac80211/files/lib/wifi/mac80211.sh
+# echo "wifi默认开启"
+# sed -i '/set wireless.${name}.disabled/d' ./package/kernel/mac80211/files/lib/wifi/mac80211.sh
 
 # # Disable IPV6 ula prefix
 # echo "关闭IPV6"
