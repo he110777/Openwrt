@@ -7,6 +7,7 @@
 # https://github.com/P3TERX/Actions-OpenWrt
 # Description: Build OpenWrt using GitHub Actions
 #
+# https://github.com/hanwckf/immortalwrt-mt798x/tree/openwrt-21.02
 
 name: tplink-xdr6086-immortalwrtARM
 
@@ -20,8 +21,8 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: https://github.com/padavanonly/immortalwrtARM
-  REPO_BRANCH: mt7986-dual-2.5G
+  REPO_URL: https://github.com/hanwckf/immortalwrt-mt798x
+  REPO_BRANCH: openwrt-21.02
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: immortalwrtARM/xdr6086.config
   DIY_P1_SH: immortalwrtARM/diy-part1.sh
