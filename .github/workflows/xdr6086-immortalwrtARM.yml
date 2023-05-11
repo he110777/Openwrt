@@ -20,7 +20,7 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: https://github.com/he110777/xdr6086immortalwrtARM
+  REPO_URL: https://github.com/padavanonly/immortalwrtARM
   REPO_BRANCH: mt7986-dual-2.5G
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: immortalwrtARM/.config
